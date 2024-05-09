@@ -19,3 +19,35 @@
     justify-content: space-between;
     background-color: #111;
 }
+.navbar-btns{
+    margin-left: 100px;
+    color: white;
+    display: flex;
+    list-style: none;
+}
+
+.navbar-btns li{
+    margin: 0px 20px;
+    font-size: 1rem;
+}
+
+/* .nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 100px;
+} */
+
+
+
+.nav-noti{
+    position: fixed;
+    right: 120px;
+    width: 30px;
+}
+.nav-search{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+}
