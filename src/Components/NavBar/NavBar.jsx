@@ -20,7 +20,7 @@ function NavBar() {
       <div className="nav-left">
         <img className='nav-search' src="nav-search-icon.png" alt="" />
          <img className='nav-noti' src="nav-search-icon.png" alt="" />
-        <img className="avatar" src="public/nav-avatar.png" alt="" />
+        <img className="avatar" src="nav-avatar.png" alt="" />
       </div>
     </div>
   );
