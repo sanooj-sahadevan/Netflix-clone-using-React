@@ -1,23 +1,21 @@
 .banner {
     background-size: cover;
-    height: 448px;
+    height: 600px;
     color: white;
   }
   .content{
     padding-top: 140px;
-    height: 190px;
+    height: 345px;
     padding-left: 15px;
   }
   .title{
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 0.3rem;
+    max-width: 360px;
   }
 
-  .bannerbuttons{
-
-  }
-
+  
   .button{
     color: white;
     outline: none;
@@ -29,6 +27,8 @@
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     background-color: rgba(36, 33, 33, 0.567);
+    cursor: pointer;
+    margin-right: 1rem;
   }
   .button:hover{
     color: black;

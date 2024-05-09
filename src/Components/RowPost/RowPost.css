@@ -9,15 +9,26 @@
     overflow-y: hidden;
 }
 
-.poster::-webkit-scrollbar{
+.posters::-webkit-scrollbar{
     display: none;
 }
 .poster{
     max-height: 250px;
     margin-right: 10px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .smallPoster{
+    transition: 0.6s;
     max-height: 150px;
     margin-right: 10px;
+    cursor: pointer;
+}
+.poster:hover{
+    transform: scale(1.2);
+}
+
+.posters:hover{
+    transform: scale(1.2);
 }
